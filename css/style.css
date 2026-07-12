@@ -374,3 +374,28 @@ font-weight:bold;
 letter-spacing:.5px;
 
 }
+.announcement{
+
+    background:#7C5CFF;
+
+    text-align:center;
+
+    padding:10px;
+
+    font-weight:bold;
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    z-index:2000;
+
+}
+
+nav{
+
+    margin-top:42px;
+
+}
