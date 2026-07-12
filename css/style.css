@@ -91,3 +91,43 @@ h1{
     box-shadow:0 0 20px rgba(124,92,255,.7);
 
 }
+.stars{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background-image:
+radial-gradient(white 1px, transparent 1px);
+
+background-size:40px 40px;
+
+opacity:.15;
+
+z-index:-1;
+
+animation:moveStars 40s linear infinite;
+
+}
+
+@keyframes moveStars{
+
+from{
+
+transform:translateY(0);
+
+}
+
+to{
+
+transform:translateY(-40px);
+
+}
+
+}
